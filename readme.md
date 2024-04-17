@@ -1,19 +1,3 @@
-## HOW TO USE
-
-----------
-
-1. Clone repository ini, dan tempatkan ke `PATH public_html` kalian, jika menggunakan xampp maka ini ada di `htdocs`
-2. Lakukan command `composer install`
-3. Copy `.env.example` menjadi `.env`
-4. Ubah `.env` sesuai dengan pengaturan database anda
-5. Lakukan command `php artisan key:generate`
-6. Lakukan command `php artisan migrate --seed`
-7. Lakukan command `php artisan storage:link`
-8. pastikan sudah terinstall node v18
-9. run `npm install`
-10. run `php artisan serve`
-11. run `npm run watch` -> jangan close terminal nya, akan otomatis build ulang ketika ada perubahan
-
 ## FITUR
 
 1. Admin
