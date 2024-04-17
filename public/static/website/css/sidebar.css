@@ -1,0 +1,158 @@
+/* @media screen and (max-width: 1023px){
+   
+    nav {
+      width: 100%;
+    }
+
+    nav ul {
+        background: #0F172A;
+        right: 0;
+        flex-direction: column;
+        top:0;
+        height: 60%;
+        justify-content: space-evenly;
+        width: 100%;
+       
+        padding-top:35px;
+        opacity: 0;
+        transition: all 1s;
+        z-index: -20;
+        position: absolute
+    }
+
+   
+
+    nav ul.slide{
+        opacity: 100;
+        transition: all 1s;
+        z-index: 20;
+        
+    }
+
+    nav ul li a {
+        opacity: 0.8;
+        color:white;
+    }
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+.font-inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.font-fairplay{
+  font-family: "Playfair Display", serif;
+}
+
+
+.tp-project-tab-button {
+    background-color: #F9FAFB;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  .tp-project-tab-button button {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 35px;
+    position: relative;
+    margin-left: -4px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tp-project-tab-button button {
+      font-size: 14px;
+      padding: 15px 15px;
+    }
+  }
+  @media (max-width: 767px) {
+    .tp-project-tab-button button {
+      font-size: 14px;
+      padding: 6px 13px;
+      margin: 3px 0px;
+    }
+  }
+  .tp-project-tab-button button:last-child:after {
+    display: none;
+  }
+  .tp-project-tab-button button span {
+    position: relative;
+    z-index: 3;
+  }
+  .tp-project-tab-button button.active {
+    box-shadow: 0px 15px 30px rgba(57, 81, 105, 0.05);
+    background-color: var(--tp-common-white);
+    color: var(--tp-common-black);
+  }
+  .tp-project-tab-button button.active:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  .tp-project-tab-button button:hover {
+    color: #222;
+  }
+  .tp-project-tab-button button:before {
+    content: "";
+    height: 100%;
+    width: 101%;
+    top: 0;
+    left: -1px;
+    background: #fff;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .tp-project-tab-button button:after {
+    content: "";
+    height: 40px;
+    width: 1px;
+    top: 50%;
+    right: 0;
+    background: #E4E6EA;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 1;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tp-project-tab-button button:after {
+      height: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .tp-project-tab-button button:after {
+      display: none;
+    }
+  }
+
+  .isotope-wrapper{
+    display: flex;
+  }
+
+
+  .image-profile{
+    width: 400px;
+    height: 270px;
+  }
+
+  @media (min-width:600px){
+    .image-profile{
+      width: 595px;
+      height: 495px;
+    }
+  }
+
+  @media (min-width:1024px){
+    .image-profile{
+      width: 495px;
+      height: 400px;
+    }
+  }
+
+  @media (min-width:1270px) {
+    .image-profile{
+      width: 495px;
+      height: 410px;
+    }
+  }

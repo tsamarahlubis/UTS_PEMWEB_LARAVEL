@@ -1,0 +1,120 @@
+.floating {  
+      animation-name: floating;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+   
+  @keyframes floating {
+      0% { transform: translate(0,  0px); }
+      50%  { transform: translate(100px, 0px); }
+      100%   { transform: translate(0, -0px); }    
+  }
+
+  .floating2 {  
+      animation-name: floating2;
+      animation-duration: 3.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+   
+  @keyframes floating2 {
+      0% { transform: translate(0,  0px); }
+      50%  { transform: translate(40px, 0px); }
+      100%   { transform: translate(0, -0px); }    
+  }
+
+  .floating3 {  
+    animation-name: floating3;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating3     {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0px, 40px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.floating4 {  
+    animation-name: floating4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating4     {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0px, 40px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.floating5 {  
+    animation-name: floating5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating5     {
+    0% { transform: translate(0px,  0x); }
+    25% { transform: translate(0px,  40px); }
+    50%  { transform: translate(40px, 40px); }
+    75%  { transform: translate(40px, -40px); }
+    100%   { transform: translate(0px, 0px); }    
+}
+
+.rectangleMovement {
+    animation-name: rectangleMove;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes rectangleMove {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(200px, 0px); }
+    50% { transform: translate(200px, 80px); }
+    75% { transform: translate(0px, 80px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+.rectangleMovement2 {
+    animation-name: rectangleMove2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes rectangleMove2 {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(-200px, 0px); }
+    50% { transform: translate(-200px, -80px); }
+    75% { transform: translate(0px, -80px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+.rectangleMovement3 {
+    animation-name: rectangleMove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
